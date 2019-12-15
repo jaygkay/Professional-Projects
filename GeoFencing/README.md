@@ -18,7 +18,7 @@ df = jay.redshift_data(imei, trip_start)
 ```python
 jay.trip_info(df)
 ```
-![alt text](https://github.com/jaygkay/projects/GeoFencing/blob/master/Screen%20Shot%202018-12-17%20at%204.57.33%20PM.png "ss")
+![alt text](https://github.com/jaygkay/projects/blob/master/GeoFencing/Screen%20Shot%202018-12-17%20at%204.57.33%20PM.png "ss")
 
  5. sample_geo() takes a parameter of a one-trip-dataframe and prints the information that explains a polygon area and how long the device was staying in the area. This function outputs a dictionary that consists of {'polygon area':['latitude', 'longitude']}
 ```python
