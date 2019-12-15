@@ -1,4 +1,4 @@
-## Dead Reckoning Project (2018.06 ~ 2018.09)
+## Dead Reckoning Project (2018.08 ~ 2018.10)
 Loss in GPS data happens when the vehicle passes by a high building, on bridges, at turnnel, and in suburb areas. 
 
 GPS is one of very important features for both the company and clients, since it brings geographical information that explains where they have been around.
