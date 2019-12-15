@@ -48,12 +48,12 @@ geo_key.keys()
 map_geofence(geo_key['garage'], garage_zone)
 ```
 
-![alt text](https://github.com/jaygkay/projects/GeoFencing/blob/master/Screen%20Shot%202018-12-17%20at%204.57.33%20PM.png)
+![alt text](https://github.com/jaygkay/projects/blob/master/GeoFencing/Screen%20Shot%202018-12-17%20at%205.12.13%20PM.png)
 
 
 [Example 2]
 ```python
 map_geofence(geo_key['centre'], centre_station)
 ```
-![alt text](https://github.com/jaygkay/projects/blob/master/GeoFencing/Screen%20Shot%202018-12-17%20at%205.12.13%20PM.png)
+![alt text](https://github.com/jaygkay/projects/blob/master/GeoFencing/Screen%20Shot%202018-12-17%20at%205.14.16%20PM.png)
 
