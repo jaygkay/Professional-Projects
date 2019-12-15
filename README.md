@@ -1,5 +1,5 @@
 # projects
-- DeadReckoning - to recover loss in gps data and predict next location of the vehicle
+- $DeadReckoning$ - to recover loss in gps data and predict next location of the vehicle
 - DriverClustering - to cluseter drivers in best/good/fair/bad types and to classify if a driver drives in safe
 - DriverScore - to measure driver's speed, guard, and focus behaviours
 - GeoFencing - to fence the geographical location to alert a driver when a driver is in near the location
