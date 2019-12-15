@@ -5,6 +5,6 @@
 - **GeoFencing** to fence the geographical location to alert a driver when a driver is in near the location
 - **GoogleMap** to map a geographical visualization using goole map api and to update gps data in more accurate ways
 - **OTA** to creat job progress bar on purpose of the engineer when they are doing a firmware test
-- **RaspberryPi** to generate gps, sensor, camera data using IoT and AWS system
+- **(2018.03 ~ 2018.06) RaspberryPi** to generate gps, sensor, camera data using IoT and AWS system
 - **WebCrawling** to develop a KOL (Key Opinion Leader) doctor based on total counts of the exposure to the news
 - **jay** a personal module on purpose of the analysis
