@@ -1,4 +1,4 @@
-## Geo Fence (2018.10 ~ 2018.11)
+## Geo Fence (2018.11 ~ 2018.11)
 
  1. Assign Trip Date 
 ```python
