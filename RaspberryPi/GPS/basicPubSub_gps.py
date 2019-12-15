@@ -108,10 +108,20 @@ if args.mode == 'both' or args.mode == 'subscribe':
     myAWSIoTMQTTClient.subscribe(topic, 1, customCallback)
 time.sleep(2)
 
+
 # Retrieve Sensor data
 from sense_hat import SenseHat
 sense = SenseHat()
 sense.clear()
+
+
+# Emergency Button data
+from button import *
+
+# GPS data
+import serial
+import json
+gps = serial.Serial("/dev/ttyUSB0", baudrate = 9600)
 
 
 # Publish to the same topic in a loop forever
@@ -143,10 +153,29 @@ while True:
         message['pressure'] = pressure
         message['temperature'] = temp
         message['humidity'] = humidity
-        
-        message['message'] = 'SENSOR DETECTED'
-         
-        messageJson = json.dumps(message)
-        myAWSIoTMQTTClient.publish(topic, messageJson, 1)
-        if args.mode == 'publish':
-            print('Published topic %s: %s\n' % (topic, messageJson))
+	
+	# Button 
+	button = Button(25)
+        button = Button(25, debounce=1.0)
+        buttonPress = button.is_pressed()
+	
+	message['emergencyCall'] = buttonPress
+
+	# GPS 
+	line = gps.readline()
+	data = line.split(",")
+	if data[0] == '$GPRMC':
+		message['TimeStamp'] = data[1]
+		message['Location'] = (data[3],data[5])
+		message['NS'] = data[4]
+		#message['Longitude'] = data[5]
+		message['EW'] = data[6]
+		message['Speed_hp'] = data[7]
+	
+	
+	       	messageJson = json.dumps(message)
+		myAWSIoTMQTTClient.publish(topic, messageJson, 1)
+		if args.mode == 'publish':
+			print('Published topic %s: %s\n' % (topic, messageJson))
+
+
