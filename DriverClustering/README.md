@@ -19,6 +19,6 @@ To support a drivers safe driving, contextual, sensor, score data are selected t
 
 - Guard Score, which explains about driver's safety based on the cars arounds, is a feature to be a target.
 
-- SVM, RF, LR, and XGBoost are utilized to be determined. 
+- SVM, RF, LR, and Gradient Boosting are utilized to be determined. 
 
 - Result: the gps location can be extracted to support where the driver drives in dangers.
