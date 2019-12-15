@@ -1,6 +1,7 @@
 ## Projects (2018.03 ~ present)
 
 |Project|Period|Content|
+|----|----|----|
 |RaspberryPi|2018.03 - 2018.06|to generate gps, sensor, camera data using IoT and AWS system|
 |DriverScore|2018.06 - 2018.08|to measure driver's speed, guard, and focus behaviours|
 |DeadReckoning|2018.08 - 2018.10|to recover loss in gps data and predict next location of the vehicle|
