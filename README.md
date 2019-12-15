@@ -1,4 +1,4 @@
-## projects (2018.03 ~ present)
+## Projects (2018.03 ~ present)
 - **(2018.03 ~ 2018.06) RaspberryPi** 
   - to generate gps, sensor, camera data using IoT and AWS system
 - **(2018.06 ~ 2018.08) DriverScore** 
@@ -17,6 +17,7 @@
   - a personal module on purpose of the analysis
 
 ----
+
 - **(2019.08 ~ 2019.09) COPD Disease Prediction** 
   - to classify if a patient has a postive reaction to COPD
 - **(2019.10 ~ 2019.10) WebCrawling** 
