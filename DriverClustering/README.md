@@ -8,7 +8,7 @@ His/Her driving score is another feature to decide it.
 
 - Result: good as expected
 
-#### 4 centroids are selected to cluser the clients to Best/Good/Fair/Bad Drivers.
+- 4 centroids are selected to cluser the clients to Best/Good/Fair/Bad Drivers.
 
 
 ### 2. Safe Drivier
@@ -17,8 +17,8 @@ The 4 types of the driver cluster do not explain if a driver drives in safe or n
 
 To support a drivers safe driving, contextual, sensor, score data are selected to decide if a driver drives in safe.
 
-Guard Score, which explains about driver's safety based on the cars arounds, is a feature to be a target.
+- Guard Score, which explains about driver's safety based on the cars arounds, is a feature to be a target.
 
-SVM, RF, LR, and XGBoost are utilized to be determined. 
+- SVM, RF, LR, and XGBoost are utilized to be determined. 
 
 - Result: the gps location can be extracted to support where the driver drives in dangers.
