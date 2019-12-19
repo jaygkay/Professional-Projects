@@ -16,8 +16,6 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 
 import os
-os.chdir("C:/CSC529/finalproject/")
-
 import sys
 sys.path.append('C:/python_class/')
 from clfFunction import svmclf as scf
