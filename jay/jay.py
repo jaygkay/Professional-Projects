@@ -48,7 +48,7 @@ class jay(object):
 		if len(new_loc) == 0:
 			fig = print(colored("\nGPS LOCATIONS IS MISSING", "red", attrs = ['bold']))
 		else:
-			gmaps.configure(api_key='AIzaSyCL8LykrYfie-rTNsi1KJOkF-n-V0yoct0')
+			gmaps.configure(api_key='---')
 			fig = gmaps.figure()
 			###############################
 			percent = len(new_loc.location)
