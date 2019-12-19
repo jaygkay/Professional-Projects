@@ -17,7 +17,6 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 import os
 import sys
-sys.path.append('C:/python_class/')
 from clfFunction import svmclf as scf
 
 np.set_printoptions(precision = 6)
