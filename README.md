@@ -1,5 +1,7 @@
 ## Projects (2018.03 ~ present)
 
+#### only scratch-codes are uploaded and explained 
+
 |PROJECT|PERIOD|PURPOSE|
 |----|----|----|
 ||||
